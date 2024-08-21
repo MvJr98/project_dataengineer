@@ -1,0 +1,26 @@
+[2024-08-19T13:04:31.076+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-08-19T13:04:31.856+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: postgres_to_snowflake.get_max_id_vendedores manual__2024-08-19T13:03:58.191100+00:00 [queued]>
+[2024-08-19T13:04:32.254+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: postgres_to_snowflake.get_max_id_vendedores manual__2024-08-19T13:03:58.191100+00:00 [queued]>
+[2024-08-19T13:04:32.256+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2024-08-19T13:04:32.583+0000] {taskinstance.py:2330} INFO - Executing <Task(_PythonDecoratedOperator): get_max_id_vendedores> on 2024-08-19 13:03:58.191100+00:00
+[2024-08-19T13:04:32.717+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:62: DeprecationWarning: This process (pid=55901) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-08-19T13:04:32.761+0000] {standard_task_runner.py:64} INFO - Started process 55928 to run task
+[2024-08-19T13:04:32.794+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'postgres_to_snowflake', 'get_max_id_vendedores', 'manual__2024-08-19T13:03:58.191100+00:00', '--job-id', '165', '--raw', '--subdir', 'DAGS_FOLDER/ingestion.py', '--cfg-path', '/tmp/tmpkrhg_8fd']
+[2024-08-19T13:04:32.923+0000] {standard_task_runner.py:91} INFO - Job 165: Subtask get_max_id_vendedores
+[2024-08-19T13:04:35.031+0000] {task_command.py:426} INFO - Running <TaskInstance: postgres_to_snowflake.get_max_id_vendedores manual__2024-08-19T13:03:58.191100+00:00 [running]> on host ff16473fb2e3
+[2024-08-19T13:04:35.902+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='postgres_to_snowflake' AIRFLOW_CTX_TASK_ID='get_max_id_vendedores' AIRFLOW_CTX_EXECUTION_DATE='2024-08-19T13:03:58.191100+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-08-19T13:03:58.191100+00:00'
+[2024-08-19T13:04:35.906+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-08-19T13:04:35.955+0000] {base.py:84} INFO - Using connection ID 'snowflake' for task execution.
+[2024-08-19T13:04:35.962+0000] {connection.py:408} INFO - Snowflake Connector for Python Version: 3.11.0, Python Version: 3.12.4, Platform: Linux-5.15.153.1-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[2024-08-19T13:04:35.964+0000] {connection.py:1258} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2024-08-19T13:04:38.448+0000] {cursor.py:1149} INFO - Number of results in first chunk: 1
+[2024-08-19T13:04:38.474+0000] {connection.py:773} INFO - closed
+[2024-08-19T13:04:38.521+0000] {connection.py:779} INFO - No async queries seem to be running, deleting session
+[2024-08-19T13:04:38.600+0000] {python.py:237} INFO - Done. Returned value was: 53
+[2024-08-19T13:04:38.616+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-08-19T13:04:38.812+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=postgres_to_snowflake, task_id=get_max_id_vendedores, run_id=manual__2024-08-19T13:03:58.191100+00:00, execution_date=20240819T130358, start_date=20240819T130431, end_date=20240819T130438
+[2024-08-19T13:04:40.144+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2024-08-19T13:04:40.334+0000] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-08-19T13:04:40.373+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
