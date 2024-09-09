@@ -16,13 +16,13 @@ Explorar dados da empresa NovaDrive Motors e montar uma arquitetura de engenhari
   <th></th>
   <tr>
     <td align="center">
-      <a href="https://www.python.org"><img align="left" alt="Python" width="30px" style="padding-right:10px;" src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg"/>
-      <a href="https://aws.amazon.com/pt/"><img align="left" alt="AWS" width="30px" style="padding-right:10px;" src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg"/>
-      <a href="https://www.docker.com/"><img align="left" alt="Docker" width="30px" style="padding-right:10px;" src="https://github.com/devicons/devicon/blob/master/icons/docker/docker-original.svg"/>  
-      <a href="https://airflow.apache.org"><img align="left" alt="Airflow" width="30px" style="padding-right:10px;" src="https://github.com/devicons/devicon/blob/master/icons/apacheairflow/apacheairflow-original.svg"/>
-      <a href="https://www.snowflake.com/pt_br/"><img align="left" alt="Snowflake" width="30px" style="padding-right:10px;" src="https://github.com/JuniorFarineli/icons-tools/blob/main/snowflake.svg"/>
-      <a href="https://www.getdbt.com"><img align="left" alt="DBT" width="30px" style="padding-right:10px;" src="https://github.com/JuniorFarineli/icons-tools/blob/main/dbt.png"/>
-      <a href="https://lookerstudio.google.com/overview"><img align="left" alt="Looker" width="30px" style="padding-right:10px;" src="https://github.com/JuniorFarineli/icons-tools/blob/main/looker-icon.svg"/>
+      <a href="https://www.python.org"><img align="left" alt="Python" width="30px" style="padding-right:10px;" src="https://github.com/MvJr98/fancy-icons/blob/main/python/python.svg"/>
+      <a href="https://aws.amazon.com/pt/"><img align="left" alt="AWS" width="30px" style="padding-right:10px;" src="https://github.com/MvJr98/fancy-icons/blob/main/aws/aws.svg"/>
+      <a href="https://www.docker.com/"><img align="left" alt="Docker" width="30px" style="padding-right:10px;" src="https://github.com/MvJr98/fancy-icons/blob/main/docker/docker.svg"/>  
+      <a href="https://airflow.apache.org"><img align="left" alt="Airflow" width="30px" style="padding-right:10px;" src="https://github.com/MvJr98/fancy-icons/blob/main/airflow/airflow.svg"/>
+      <a href="https://www.snowflake.com/pt_br/"><img align="left" alt="Snowflake" width="30px" style="padding-right:10px;" src="https://github.com/MvJr98/fancy-icons/blob/main/snowflake/snowflake.svg"/>
+      <a href="https://www.getdbt.com"><img align="left" alt="DBT" width="30px" style="padding-right:10px;" src="https://github.com/MvJr98/fancy-icons/blob/main/dbt/dbt.svg"/>
+      <a href="https://lookerstudio.google.com/overview"><img align="left" alt="Looker" width="30px" style="padding-right:10px;" src="https://github.com/MvJr98/fancy-icons/blob/main/looker_studio/looker_studio.svg"/>
     </td>
   </tr>
 </table>
