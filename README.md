@@ -12,7 +12,7 @@ Explorar dados da empresa NovaDrive Motors e montar uma arquitetura de engenhari
 
 ## Tecnologias Utilizadas
 
-<table align="center">
+<table align="left">
   <th></th>
   <tr>
     <td align="center">
